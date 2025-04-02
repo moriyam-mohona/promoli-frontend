@@ -6,6 +6,12 @@
   --font-alex: "Alex Brush", cursive;
 
   --color-primary: #7ee3f9;
+  --color-secondary: #001f3f;
+}
+
+@theme {
+  --color-primary: #7ee3f9;
+  --color-secondary: #001f3f;
 }
 
 @media (prefers-color-scheme: dark) {

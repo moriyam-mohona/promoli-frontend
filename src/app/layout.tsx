@@ -37,7 +37,7 @@ export default function RootLayout({
       className={`${poppins.variable} ${outfit.variable}`}
       // className={`${poppins.variable} ${outfit.variable} ${alexBrush.variable}`}
     >
-      <body>{children}</body>
+      <body className="bg-[#FDF8F0]">{children}</body>
     </html>
   );
 }

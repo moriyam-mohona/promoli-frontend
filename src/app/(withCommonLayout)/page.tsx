@@ -4,7 +4,7 @@ import React from "react";
 
 const LandingPage = () => {
   return (
-    <div className="container mx-auto w-full h-screen bg-gray-200">
+    <div className="container mx-auto w-full h-screen bg-[#FDF8F0]">
       <HomeBanner />
       <GoodToKnow />
     </div>
