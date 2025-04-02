@@ -1,16 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Poppins, Outfit } from "next/font/google";
+// import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-poppins",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const outfit = Outfit({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-outfit",
 });
+
+// const alexBrush = localFont({
+//   src: "../../public/fonts/AlexBrush-Regular.ttf",
+//   variable: "--font-alex",
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,12 +31,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html
+      lang="en"
+      data-theme="light"
+      className={`${poppins.variable} ${outfit.variable}`}
+      // className={`${poppins.variable} ${outfit.variable} ${alexBrush.variable}`}
+    >
+      <body>{children}</body>
     </html>
   );
 }
