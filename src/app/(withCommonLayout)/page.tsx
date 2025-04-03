@@ -1,4 +1,5 @@
 import HomeBanner from "@/components/home/banner/HomeBanner";
+import CrabsCutters from "@/components/home/crabsCutters/CrabsCutters";
 import DreamlikeApartments from "@/components/home/dreamlikeApartments/DreamlikeApartments";
 import GoodToKnow from "@/components/home/goodToknow/GoodToknow";
 import CallToAction from "@/components/shared/CallToAction";
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <div className="mb-40">
         <DreamlikeApartments />
         <GoodToKnow />
+        <CrabsCutters />
         <CallToAction />
       </div>
     </div>
