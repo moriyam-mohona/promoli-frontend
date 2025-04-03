@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <div
-      className={`absolute top-20 left-0 w-full z-50 ${className} transition-colors duration-300`}
+      className={`absolute top-16 md:top-20 left-0 w-full z-50 ${className} transition-colors duration-300`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
@@ -39,7 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({
               alt="Logo"
               width={1000}
               height={1000}
-              className="w-20 h-16 object-contain"
+              className="w-16 h-12 md:w-20 md:h-16 object-contain"
             />
           </div>
 
@@ -64,7 +64,7 @@ const Navbar: React.FC<NavbarProps> = ({
           <div className="flex items-center space-x-4">
             {/* Wishlist */}
             <div className="relative">
-              <div className="w-10 h-10 flex items-center justify-center border-2 border-white rounded-full">
+              <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center border-2 border-white rounded-full">
                 <GrFavorite size={22} className="text-white" />
               </div>
               <span className="absolute -top-2 -right-2 bg-black text-white text-xs rounded-full w-6 h-6 flex items-center justify-center">
@@ -84,13 +84,13 @@ const Navbar: React.FC<NavbarProps> = ({
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4">
+          <div className="bg-white md:hidden px-5 py-4">
             <div className="flex flex-col space-y-4">
               {navigationLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
-                  className={`text-white font-medium relative transition-all duration-300 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-white after:transition-all after:duration-300 ${
+                  className={`text-black/70 font-medium relative transition-all duration-300 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-white after:transition-all after:duration-300 ${
                     pathname === link.href
                       ? "after:w-full"
                       : "after:w-0 hover:after:w-full"

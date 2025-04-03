@@ -7,7 +7,6 @@ const CommonLayout = ({ children }: { children: ReactNode }) => {
     <>
       <div>
         <Topbar />
-
         <div className="bg-[#FDF8F0]"> {children}</div>
         <Footer />
       </div>
