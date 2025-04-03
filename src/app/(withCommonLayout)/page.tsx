@@ -1,4 +1,5 @@
 import HomeBanner from "@/components/home/banner/HomeBanner";
+import DreamlikeApartments from "@/components/home/dreamlikeApartments/DreamlikeApartments";
 import GoodToKnow from "@/components/home/goodToknow/GoodToknow";
 import Filtering from "@/components/shared/Filtering";
 import Navbar from "@/components/shared/Navbar";
@@ -10,7 +11,8 @@ const LandingPage = () => {
       <Navbar className="bg-transparent shadow-none" />
       <HomeBanner />
       <Filtering />
-      <div className="container mx-auto w-full h-screen bg-[#FDF8F0]">
+      <div className="container mx-auto w-full bg-[#FDF8F0]">
+        <DreamlikeApartments />
         <GoodToKnow />
       </div>
     </div>

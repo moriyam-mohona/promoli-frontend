@@ -1,5 +1,5 @@
 const GoodToKnow = () => {
-  return <div>GoodToKnow</div>;
+  return <div className="font-alex text-3xl text-primary">Good To Know</div>;
 };
 
 export default GoodToKnow;

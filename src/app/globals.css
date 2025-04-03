@@ -3,7 +3,7 @@
 :root {
   --font-outfit: "Outfit", sans-serif;
   --font-poppins: "Poppins", sans-serif;
-  --font-alex: "Alex Brush", cursive;
+  --font-alex: "Alex Brush", sans-serif;
 
   --color-primary: #7ee3f9;
   --color-secondary: #001f3f;
@@ -20,11 +20,6 @@
     --foreground: #171717;
   }
 }
-
-/* [data-theme="dark"] {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-} */
 
 body {
   background: var(--background);
