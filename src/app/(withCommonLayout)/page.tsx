@@ -11,7 +11,7 @@ const LandingPage = () => {
       <Navbar className="bg-transparent shadow-none" />
       <HomeBanner />
       <Filtering />
-      <div className="container mx-auto w-full bg-[#FDF8F0]">
+      <div className="bg-[#FDF8F0]">
         <DreamlikeApartments />
         <GoodToKnow />
       </div>

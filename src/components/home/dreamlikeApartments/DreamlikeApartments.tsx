@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const DreamlikeApartments = () => {
   return (
-    <div className="relative">
+    <div className="container mx-auto w-full">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -21,7 +21,7 @@ const DreamlikeApartments = () => {
 
       {/* Content Container */}
       <div className="relative container mx-auto px-4 py-20 md:py-32">
-        <div className="grid grid-cols-12 gap-8">
+        <div className="grid grid-cols-12 items-center gap-8">
           {/* Text Grid */}
           <div className="col-span-12 lg:col-span-7 flex flex-col items-end">
             <div className="flex flex-col justify-center items-start">
