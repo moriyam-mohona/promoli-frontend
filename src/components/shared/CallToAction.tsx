@@ -14,7 +14,7 @@ import {
 
 const CallToAction = () => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full pb-40">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat min-h-[130vh]"

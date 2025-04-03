@@ -2,6 +2,7 @@ import HomeBanner from "@/components/home/banner/HomeBanner";
 import CrabsCutters from "@/components/home/crabsCutters/CrabsCutters";
 import DreamlikeApartments from "@/components/home/dreamlikeApartments/DreamlikeApartments";
 import GoodToKnow from "@/components/home/goodToknow/GoodToknow";
+import TheRightHoliday from "@/components/home/theRightHoliday/TheRightHoliday";
 import CallToAction from "@/components/shared/CallToAction";
 import Filtering from "@/components/shared/Filtering";
 import Navbar from "@/components/shared/Navbar";
@@ -16,6 +17,7 @@ const LandingPage = () => {
       <div className="mb-40">
         <DreamlikeApartments />
         <GoodToKnow />
+        <TheRightHoliday />
         <CrabsCutters />
         <CallToAction />
       </div>
