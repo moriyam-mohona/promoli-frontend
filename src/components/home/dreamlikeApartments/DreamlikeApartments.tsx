@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const DreamlikeApartments = () => {
   return (
-    <div className="container mx-auto w-full">
+    <div className="container relative mx-auto w-full">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
