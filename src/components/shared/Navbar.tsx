@@ -9,7 +9,7 @@ import logo from "@/assets/logo.png";
 
 const navigationLinks = [
   { href: "/", label: "Home", icon: <FaHome /> },
-  { href: "/a", label: "Holidays Apartment" },
+  { href: "/holidays-apartment", label: "Holidays Apartment" },
   { href: "/b", label: "Property Management" },
   { href: "/c", label: "Activities" },
   { href: "/d", label: "About Us" },

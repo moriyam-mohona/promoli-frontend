@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-
 const NotFound = () => {
   return (
     <div className="h-screen w-full flex flex-col justify-center items-center text-center bg-gray-200">
