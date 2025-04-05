@@ -4,8 +4,10 @@ import React from "react";
 import { motion } from "framer-motion"; // Importing Framer Motion
 import Image, { StaticImageData } from "next/image";
 import { BsArrowRight } from "react-icons/bs";
+import Link from "next/link";
 
 interface HolidayCardProps {
+  id: string;
   imageSrc: string | StaticImageData;
   title: string;
   rating: number;
@@ -18,6 +20,7 @@ interface HolidayCardProps {
 }
 
 const HolidayCard: React.FC<HolidayCardProps> = ({
+  id,
   imageSrc,
   title,
   rating,
@@ -96,9 +99,12 @@ const HolidayCard: React.FC<HolidayCardProps> = ({
             <span className="text-4xl font-semibold text-primary">{price}</span>
             /Per Night
           </p>
-          <button className="bg-primary text-white py-3 px-8 hover:bg-primary/80 transition flex items-center gap-2">
+          <Link
+            href={`/booking/${id}`}
+            className="bg-primary text-white py-3 px-8 hover:bg-primary/80 transition flex items-center gap-2"
+          >
             Book Now <BsArrowRight className="w-6 h-6" />
-          </button>
+          </Link>
         </div>
       </div>
     </div>

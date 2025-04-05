@@ -7,6 +7,7 @@ import HolidayCard from "@/components/card/HolidayCard";
 const HolidayTrendyApartment = () => {
   const holidayData = [
     {
+      id: "1",
       imageSrc: img,
       title: "Inselzeit Wohnung 1",
       rating: 4.8,
@@ -18,6 +19,7 @@ const HolidayTrendyApartment = () => {
       price: "$120",
     },
     {
+      id: "2",
       imageSrc: img,
       title: "Inselzeit Wohnung 2",
       rating: 4.9,
@@ -29,6 +31,7 @@ const HolidayTrendyApartment = () => {
       price: "$100",
     },
     {
+      id: "3",
       imageSrc: img,
       title: "Inselzeit Wohnung 3",
       rating: 4.7,
@@ -40,6 +43,7 @@ const HolidayTrendyApartment = () => {
       price: "$110",
     },
     {
+      id: "4",
       imageSrc: img,
       title: "Inselzeit Wohnung 3",
       rating: 4.7,
@@ -51,6 +55,7 @@ const HolidayTrendyApartment = () => {
       price: "$110",
     },
     {
+      id: "5",
       imageSrc: img,
       title: "Inselzeit Wohnung 3",
       rating: 4.7,
@@ -84,6 +89,7 @@ const HolidayTrendyApartment = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <HolidayCard
+              id={holiday.id}
               imageSrc={holiday.imageSrc}
               title={holiday.title}
               rating={holiday.rating}

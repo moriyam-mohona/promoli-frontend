@@ -13,7 +13,7 @@ const navigationLinks = [
   { href: "/property-management", label: "Property Management" },
   { href: "/activities", label: "Activities" },
   { href: "/about-us", label: "About Us" },
-  { href: "/faq", label: "FAQ's" },
+  // { href: "/faq", label: "FAQ's" },
 ];
 
 interface NavbarProps {
@@ -40,7 +40,7 @@ const Navbar: React.FC<NavbarProps> = ({
                 alt="Logo"
                 width={1000}
                 height={1000}
-                className="w-16 h-12 md:w-28 md:h-24 object-contain"
+                className="w-16 h-12 md:w-24 md:h-20 object-contain"
               />
             </div>
 
