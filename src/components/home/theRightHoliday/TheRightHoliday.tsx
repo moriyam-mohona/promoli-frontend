@@ -4,6 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import HolidayCard from "@/components/card/HolidayCard";
 import img from "@/assets/holiday.png";
+import CategoryFiltering from "@/components/shared/CategoryFiltering";
 
 // Sample holiday card data
 const holidayData = [
@@ -56,7 +57,7 @@ const TheRightHoliday = () => {
             deine Wunschunterkunft!
           </p>
         </div>
-
+        <CategoryFiltering />
         {/* Map holidayData to render HolidayCard */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
           {holidayData.map((holiday, index) => (

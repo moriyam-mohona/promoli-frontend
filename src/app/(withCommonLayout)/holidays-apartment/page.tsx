@@ -16,7 +16,7 @@ const HolidaysApartment = () => {
       <div className="bg-[#FFF8F0]">
         <ExperiencePerfectGetaway />
         <HolidayTrendyApartment />
-        <div className="container mx-auto w-2/3 text-gray-300 py-20">
+        <div className="container mx-auto w-2/3 text-gray-300 py-20 ml-48">
           <hr />
         </div>
         <HolidayAllApartment />
