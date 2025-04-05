@@ -1,3 +1,4 @@
+import ApartmentCategory from "@/components/home/apartmentCategory/ApartmentCategory";
 import HomeBanner from "@/components/home/banner/HomeBanner";
 import CrabsCutters from "@/components/home/crabsCutters/CrabsCutters";
 import DreamlikeApartments from "@/components/home/dreamlikeApartments/DreamlikeApartments";
@@ -22,6 +23,7 @@ const LandingPage = () => {
         <TheRightHoliday />
         <Services />
         <FeelTheMagic />
+        <ApartmentCategory />
         <CrabsCutters />
         <CallToAction />
       </div>
