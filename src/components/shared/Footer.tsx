@@ -18,13 +18,13 @@ const Footer = () => {
               alt="Logo"
               width={1000}
               height={1000}
-              className="w-28 h-24"
+              className="w-48 h-40 mb-4"
             />
           </div>
-          <p className="text-base max-w-xs font-outfit">
+          {/* <p className="text-base max-w-xs font-outfit">
             IMPORTANT NOTICE: You and your contractor are responsible for
             meeting the terms and conditions of this contract.
-          </p>
+          </p> */}
         </div>
 
         {/* Quick Links */}
