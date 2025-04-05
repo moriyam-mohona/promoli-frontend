@@ -44,3 +44,34 @@ body,
 .font-alex {
   font-family: var(--font-alex);
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.custom-pagination {
+  display: flex;
+  gap: 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: rgba(126, 227, 249, 1);
+  border-radius: 80%;
+  transition: all 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  width: 36px;
+  height: 12px;
+  border-radius: 8px;
+  background: linear-gradient(to right, #7ee3f9, #a3e0ee);
+}

@@ -9,11 +9,11 @@ import logo from "@/assets/logo.png";
 
 const navigationLinks = [
   { href: "/", label: "Home", icon: <FaHome /> },
-  { href: "/", label: "Holidays Apartment" },
-  { href: "/", label: "Property Management" },
-  { href: "/", label: "Activities" },
-  { href: "/", label: "About Us" },
-  { href: "/", label: "FAQ's" },
+  { href: "/a", label: "Holidays Apartment" },
+  { href: "/b", label: "Property Management" },
+  { href: "/c", label: "Activities" },
+  { href: "/d", label: "About Us" },
+  { href: "/e", label: "FAQ's" },
 ];
 
 interface NavbarProps {
