@@ -1,6 +1,7 @@
 import HomeBanner from "@/components/home/banner/HomeBanner";
 import CrabsCutters from "@/components/home/crabsCutters/CrabsCutters";
 import DreamlikeApartments from "@/components/home/dreamlikeApartments/DreamlikeApartments";
+import FeelTheMagic from "@/components/home/feelTheMagic/FeelTheMagic";
 import GoodToKnow from "@/components/home/goodToknow/GoodToknow";
 import Services from "@/components/home/services/Services";
 import TheRightHoliday from "@/components/home/theRightHoliday/TheRightHoliday";
@@ -20,6 +21,7 @@ const LandingPage = () => {
         <GoodToKnow />
         <TheRightHoliday />
         <Services />
+        <FeelTheMagic />
         <CrabsCutters />
         <CallToAction />
       </div>
