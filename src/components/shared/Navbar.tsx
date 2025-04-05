@@ -10,10 +10,10 @@ import logo from "@/assets/logo.png";
 const navigationLinks = [
   { href: "/", label: "Home", icon: <FaHome /> },
   { href: "/holidays-apartment", label: "Holidays Apartment" },
-  { href: "/b", label: "Property Management" },
-  { href: "/c", label: "Activities" },
-  { href: "/d", label: "About Us" },
-  { href: "/e", label: "FAQ's" },
+  { href: "/property-management", label: "Property Management" },
+  { href: "/activities", label: "Activities" },
+  { href: "/about-us", label: "About Us" },
+  { href: "/faq", label: "FAQ's" },
 ];
 
 interface NavbarProps {
@@ -28,10 +28,10 @@ const Navbar: React.FC<NavbarProps> = ({
 
   return (
     <div
-      className={`absolute top-16 md:top-20 left-0 w-full z-50 ${className} transition-colors duration-300`}
+      className={`absolute top-16 md:top-16 left-0 w-full z-50 ${className} transition-colors duration-300`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           <div className="flex items-center gap-10">
             {/* Logo */}
             <div className="flex items-center">
