@@ -6,57 +6,52 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
+import couple from "@/assets/home/for-couples.png";
+import families from "@/assets/home/for-families.png";
+import doglovers from "@/assets/home/for-doglovers.png";
 
 const slides = [
   {
-    image:
-      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&q=80",
-    category: "Services",
-    title: "To make your holiday as you imagine it",
+    image: couple,
+    category: "Für paare",
+    title: "Wellness & Sauna",
     description:
-      "Would you like a personalized offer? Or do you need a taxi to the holiday apartment? Of course! After all, we want you to enjoy your stay here as much as possible. So please contact our contact persons in good time so that we can arrange everything for your vacation.",
+      "Tauche ein in pure Erholung – genieße wohltuende Wärme in der Sauna und lass den Alltagsstress hinter dir. Wellness, Entspannung & neue Energie in deiner Unterkunft.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80",
-    category: "Travel Insurance",
-    title: "You never know what will happen",
+    image: families,
+    category: "Für Familien",
+    title: "Spaziergänge am See",
     description:
-      "Protect your journey with comprehensive coverage for unexpected events.",
+      "Erlebe die Ruhe der Natur bei einem entspannten Spaziergang am See – frische Luft, sanfte Wellen und pure Erholung. Perfekt, um den Kopf frei zu bekommen und neue Energie zu tanken.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80",
-    category: "Good to know",
-    title:
-      "Exclusive insider tips that will make your stay even more enjoyable",
+    image: doglovers,
+    category: "Für Hunde-Liebhaber",
+    title: "Mit Hund unterwegs",
     description:
-      "Surf the internet for free, drive a climate-neutral car... There's a lot going on in Büsum!",
+      "Gemeinsam die Natur entdecken – in unseren tierfreundlichen Unterkünften ist dein Hund herzlich willkommen. Endlose Spazierwege und wunderschöne Landschaften warten auf euch!",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&q=80",
-    category: "Services",
-    title: "To make your holiday as you imagine it",
+    image: couple,
+    category: "Für paare",
+    title: "Wellness & Sauna",
     description:
-      "Would you like a personalized offer? Or do you need a taxi to the holiday apartment? Of course! After all, we want you to enjoy your stay here as much as possible. So please contact our contact persons in good time so that we can arrange everything for your vacation.",
+      "Tauche ein in pure Erholung – genieße wohltuende Wärme in der Sauna und lass den Alltagsstress hinter dir. Wellness, Entspannung & neue Energie in deiner Unterkunft.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80",
-    category: "Travel Insurance",
-    title: "You never know what will happen",
+    image: families,
+    category: "Für Familien",
+    title: "Spaziergänge am See",
     description:
-      "Protect your journey with comprehensive coverage for unexpected events.",
+      "Erlebe die Ruhe der Natur bei einem entspannten Spaziergang am See – frische Luft, sanfte Wellen und pure Erholung. Perfekt, um den Kopf frei zu bekommen und neue Energie zu tanken.",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80",
-    category: "Good to know",
-    title:
-      "Exclusive insider tips that will make your stay even more enjoyable",
+    image: doglovers,
+    category: "Für Hunde-Liebhaber",
+    title: "Mit Hund unterwegs",
     description:
-      "Surf the internet for free, drive a climate-neutral car... There's a lot going on in Büsum!",
+      "Gemeinsam die Natur entdecken – in unseren tierfreundlichen Unterkünften ist dein Hund herzlich willkommen. Endlose Spazierwege und wunderschöne Landschaften warten auf euch!",
   },
 ];
 

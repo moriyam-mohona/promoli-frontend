@@ -32,32 +32,34 @@ const Navbar: React.FC<NavbarProps> = ({
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <div className="flex items-center">
-            <Image
-              src={logo}
-              alt="Logo"
-              width={1000}
-              height={1000}
-              className="w-16 h-12 md:w-20 md:h-16 object-contain"
-            />
-          </div>
+          <div className="flex items-center gap-10">
+            {/* Logo */}
+            <div className="flex items-center">
+              <Image
+                src={logo}
+                alt="Logo"
+                width={1000}
+                height={1000}
+                className="w-16 h-12 md:w-28 md:h-24 object-contain"
+              />
+            </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navigationLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className={`text-white font-outfit font-medium relative transition-all duration-300 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-white after:transition-all after:duration-300 ${
-                  pathname === link.href
-                    ? "after:w-full"
-                    : "after:w-0 hover:after:w-full"
-                }`}
-              >
-                {link.label}
-              </a>
-            ))}
+            {/* Desktop Navigation */}
+            <div className="hidden md:flex items-center space-x-8">
+              {navigationLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className={`text-white font-outfit font-medium relative transition-all duration-300 after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:bg-white after:transition-all after:duration-300 ${
+                    pathname === link.href
+                      ? "after:w-full"
+                      : "after:w-0 hover:after:w-full"
+                  }`}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Icons + Hamburger */}

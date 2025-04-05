@@ -69,14 +69,14 @@ export default function ImageSlider() {
           <div className="lg:col-span-4 flex flex-col justify-center space-y-6">
             <span className="text-primary font-alex text-4xl">Services</span>
             <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-              To make your holiday as you imagine it
+              Berge oder See? Warum nicht beides!
             </h2>
-            <p className="leading-relaxed">
-              Would you like a personalized offer? Or do you need a taxi to the
-              holiday apartment? Of course! After all, we want you to enjoy your
-              stay here as much as possible. So please contact our contact
-              persons in good time so that we can arrange everything for your
-              vacation.
+            <p className="text-gray-700 leading-relaxed">
+              Du kannst dich nicht zwischen Bergen und Wasser entscheiden? Am
+              Bodensee und im Allgäu erlebst du beides – kristallklares Wasser
+              zum Baden und Segeln sowie atemberaubende Alpenpanoramen zum
+              Wandern und Skifahren. Sichere dir jetzt deine Ferienwohnung und
+              genieße das Beste aus beiden Welten!
             </p>
           </div>
 

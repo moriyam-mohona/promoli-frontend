@@ -27,7 +27,7 @@ const CrabsCutters = () => {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-3xl sm:text-4xl lg:text-5xl font-semibold font-outfit mb-6 text-black"
           >
-            Crabs, cutters, Wadden Sea
+            Natur, Ruhe & Entspannung – dein Rückzugsort
           </motion.h2>
 
           <motion.p
@@ -36,20 +36,19 @@ const CrabsCutters = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-gray-500 text-base sm:text-lg leading-relaxed mb-6"
           >
-            Büsum is colorful and simply worth every trip. It&apos;s no wonder
-            our guests come and go – and come back again. Just like the sea
-            itself. Countless beautiful spots with magical charm await here –
-            and honestly: We&apos;re already in love! One visit, and you&apos;ll
-            know exactly why...
+            Raus aus dem Alltag, rein in die Natur! Der Bodensee und das Allgäu
+            sind der perfekte Ort, um zur Ruhe zu kommen, durchzuatmen und
+            einfach zu genießen. Finde jetzt deine Ferienwohnung und gönn dir
+            eine wohlverdiente Auszeit!
           </motion.p>
 
           <motion.button
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="bg-primary transition text-white px-8 py-3 rounded font-medium flex items-center gap-2 text-sm sm:text-base"
+            className="bg-primary transition text-black px-8 py-3 rounded font-medium flex items-center gap-2 text-sm sm:text-base"
           >
-            Discover Now <BsArrowRight className="w-6 h-6" />
+            Jetzt Entdecken <BsArrowRight className="w-6 h-6" />
           </motion.button>
         </div>
 

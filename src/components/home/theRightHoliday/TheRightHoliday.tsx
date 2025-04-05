@@ -48,13 +48,12 @@ const TheRightHoliday = () => {
       <div className="container mx-auto py-20">
         <div className="space-y-5">
           <h2 className="text-5xl font-semibold">
-            The right holiday accommodation for everyone
+            Dein perfektes Urlaubszuhause am Bodensee & Allgäu
           </h2>
-          <p className="text-gray-500 text-base sm:text-lg leading-relaxed mb-6 mt-4">
-            A holiday apartment with a sea view, an apartment with a large sofa
-            for relaxing, accommodation with plenty of space for your dog…
-            Whatever you value most in your holiday home, we&apos;re sure
-            you&apos;ll find it here. Enjoy browsing!
+          <p className="max-w-7xl text-gray-500 text-base sm:text-lg leading-relaxed mb-6 mt-4">
+            Ob direkt am Bodensee oder in den Allgäuer Bergen – hier findest du
+            die perfekte Ferienwohnung. Mit Hund, Sauna oder Seeblick – wähle
+            deine Wunschunterkunft!
           </p>
         </div>
 

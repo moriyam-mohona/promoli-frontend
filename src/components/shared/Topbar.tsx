@@ -39,7 +39,7 @@ const Topbar = () => {
               </motion.div>
               <div className="flex flex-col">
                 <span className="text-sm md:text-base font-medium text-[#001F3F] ">
-                  Phone Number
+                  Telefonnummer
                 </span>
                 <span className="text-sm text-[#808080]">(850) 123-1212</span>
               </div>
@@ -60,10 +60,10 @@ const Topbar = () => {
 
               <div className="flex flex-col">
                 <span className="text-sm md:text-base font-medium text-[#001F3F] ">
-                  Email Us Here
+                  Email
                 </span>
                 <span className="text-sm text-[#808080]">
-                  example@gmail.com
+                  info@stays-bodensee.de
                 </span>
               </div>
             </motion.div>

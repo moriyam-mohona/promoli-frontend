@@ -18,7 +18,7 @@ const GoodToKnow = () => {
               transition={{ duration: 0.6 }}
               className="font-outfit text-xl sm:text-2xl md:text-3xl font-semibold mb-4"
             >
-              Good to know: With us you can cancel free of charge
+              Beste Ferienwohnungen & Top-Verwaltung – Bestpreis garantiert!
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -26,10 +26,11 @@ const GoodToKnow = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-gray-600 text-base sm:text-sm lg:text-base font-light leading-relaxed"
             >
-              If something goes wrong, you can cancel your booking up to 28 days
-              before your arrival – completely free of charge! This way, you
-              enjoy the best possible flexibility in your vacation planning
-              while benefiting from our first-class value for money.
+              Ob für Ihren Urlaub oder zur Verwaltung Ihrer Ferienwohnung – die
+              Stay Verwaltung bietet erstklassige Unterkünfte am Bodensee und im
+              Allgäu. Unsere zufriedenen Kunden profitieren von professionellem
+              Management und besten Preisen. Buchen oder verwalten Sie jetzt mit
+              Stay!
             </motion.p>
           </div>
 

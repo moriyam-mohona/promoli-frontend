@@ -33,7 +33,7 @@ const HomeBanner = () => {
             delay: 0.3,
             ease: "easeOut",
           }}
-          className="text-center max-w-5xl"
+          className="text-center max-w-6xl"
         >
           <motion.h1
             initial={{ y: 20, opacity: 0 }}
@@ -45,7 +45,8 @@ const HomeBanner = () => {
             }}
             className="font-outfit text-4xl md:text-6xl font-semibold text-white mb-4"
           >
-            Fantastic holiday apartments on Lake Constance & in the Allgäu
+            Ihr perfektes Feriendomizil am <br /> Bodensee & im Allgäu – Einfach
+            buchen & sorgenfrei verwalten!
           </motion.h1>
         </motion.div>
       </div>

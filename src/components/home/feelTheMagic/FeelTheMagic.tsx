@@ -55,7 +55,7 @@ const FeelTheMagic = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-3xl sm:text-4xl lg:text-5xl font-semibold font-outfit mb-6 text-black"
             >
-              Feel the magic of the North together
+              Dein Urlaubsmoment beginnt genau hier
             </motion.h2>
 
             <motion.p
@@ -64,13 +64,12 @@ const FeelTheMagic = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-gray-500 text-base sm:text-lg leading-relaxed mb-6"
             >
-              What does your perfect vacation look like? Often, a beautiful
-              place, the sea, being completely at peace with yourself and having
-              your loved ones around you is enough. Whether you&apos;re
-              traveling with friends, your partner, children, or dog, the unique
-              North Sea flair in Büsum will perhaps turn your head a little and
-              make your hair ruffle. But it&apos;s also sure to make your eyes
-              light up!
+              Manche Reisen vergisst man nie – und der Bodensee sowie das Allgäu
+              sind voller unvergesslicher Erlebnisse. Ob du früh morgens den
+              Sonnenaufgang in den Bergen bewunderst oder am Abend den Tag am
+              See ausklingen lässt – hier entstehen deine schönsten
+              Erinnerungen. Buche jetzt deine Ferienwohnung und erlebe magische
+              Momente!
             </motion.p>
           </div>
         </div>

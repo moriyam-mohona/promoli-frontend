@@ -31,7 +31,7 @@ const DreamlikeApartments = () => {
                 transition={{ duration: 0.6 }}
                 className=" text-primary font-alex text-lg md:text-4xl mb-4 block"
               >
-                You have never experienced the North Sea like this before
+                Urlaub mit Gefühl – Zuhause am Bodensee
               </motion.span>
 
               <motion.h1
@@ -40,9 +40,9 @@ const DreamlikeApartments = () => {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-4xl md:text-6xl font-semibold font-outfit text-black mb-6"
               >
-                Dreamlike holiday apartments
+                Traumhafte Ferienwohnungen
                 <br />
-                in Büsum
+                am Bodensee & im Allgäu 
               </motion.h1>
 
               <motion.p
@@ -51,12 +51,15 @@ const DreamlikeApartments = () => {
                 transition={{ duration: 0.6, delay: 0.4 }}
                 className="font-light text-[#5B5B5B]"
               >
-                Have you ever stood on the dike and watched the setting sun
-                paint the sky a striking orange-red? Or have you ever strolled
-                along the promenade as the sea slowly recedes, revealing a World
-                Heritage Site? These are just two of the countless moments that
-                make Büsum so special for us. Describing them is almost
-                impossible – experiencing them for yourself is simply magical.
+                Mehr als 100 liebevoll eingerichtete Ferienunterkünfte, ein
+                zuverlässiger Rundum-Service und echte Gastgeberleidenschaft –
+                das ist Stays. Als größter Anbieter am Bodensee bieten wir Ihnen
+                hochwertige Ferienwohnungen in den schönsten Lagen der Region:
+                am Wasser, in der Stadt oder mitten im Grünen.
+                <br /> <br /> Unsere Mission ist es, Ihnen ein Zuhause auf Zeit
+                zu schenken – mit höchstem Komfort, moderner Ausstattung und
+                einem Service, der von Herzen kommt.Ankommen. Durchatmen.
+                Wohlfühlen.
               </motion.p>
             </div>
             <motion.div
