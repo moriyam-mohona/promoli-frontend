@@ -66,11 +66,11 @@ const HolidayTrendyApartment = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="space-y-5">
-        <h2 className="text-4xl font-semibold">Holiday Trendy Apartment</h2>
+        <h2 className="text-4xl font-semibold">Unsere Gäste Favoriten</h2>
         <p className="text-base sm:text-lg leading-relaxed mb-6 mt-4 max-w-4xl">
-          Exclusive holiday apartments for every requirement. No matter whether
-          you are planning a romantic weekend on Lake Constance or want to enjoy
-          an active holiday in the Allgäu
+          Diese Ferienwohnungen wurden von unseren Gästen besonders oft gebucht
+          und empfohlen. Entdecke jetzt die Favoriten – perfekt bewertet,
+          charmant gelegen und ideal für deinen nächsten Urlaub.
         </p>
       </div>
 

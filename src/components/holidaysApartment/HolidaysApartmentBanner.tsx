@@ -35,18 +35,6 @@ const HolidaysApartmentBanner = () => {
           }}
           className="text-center max-w-5xl"
         >
-          <motion.p
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              duration: 0.8,
-              delay: 0.4,
-              ease: "easeOut",
-            }}
-            className="text-xl text-white font-outfit font-light leading-16"
-          >
-            Holiday homes & apartments for all-round well-being
-          </motion.p>
           <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -57,7 +45,7 @@ const HolidaysApartmentBanner = () => {
             }}
             className="font-outfit text-4xl md:text-6xl font-semibold text-white mb-4"
           >
-            Directly on the North Sea
+            Ferienwohnungen am Bodensee & im Allgäu entdecken
           </motion.h1>
         </motion.div>
       </div>

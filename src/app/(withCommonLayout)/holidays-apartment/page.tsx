@@ -4,7 +4,8 @@ import Filtering from "@/components/shared/Filtering";
 import ExperiencePerfectGetaway from "@/components/holidaysApartment/ExperiencePerfectGetaway";
 import HolidayTrendyApartment from "@/components/holidaysApartment/HolidayTrendyApartment";
 import HolidayAllApartment from "@/components/holidaysApartment/HolidayAllApartment";
-import HolidaysApartmentFooter from "@/components/holidaysApartment/HolidaysApartmentFooter";
+import Services from "@/components/home/services/Services";
+import CrabsCutters from "@/components/home/crabsCutters/CrabsCutters";
 
 const HolidaysApartment = () => {
   return (
@@ -19,7 +20,9 @@ const HolidaysApartment = () => {
           <hr />
         </div>
         <HolidayAllApartment />
-        <HolidaysApartmentFooter />
+        <Services />
+        <CrabsCutters />
+        {/* <HolidaysApartmentFooter /> */}
       </div>
     </div>
   );
