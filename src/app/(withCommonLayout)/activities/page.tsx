@@ -1,11 +1,14 @@
 import banner from "@/assets/activities/activity.png";
-
 import ActivitiesBanner from "@/components/activities/ActivitiesBanner";
 import Navbar from "@/components/shared/Navbar";
 import Filtering from "@/components/shared/Filtering";
 import HolidaysBegin from "@/components/activities/HolidaysBegin";
 import DidYouKnow from "@/components/activities/DidYouKnow";
 import Image from "next/image";
+import NotJustAnyLake from "@/components/activities/NotJustAnyLake";
+import ForGourmets from "@/components/activities/ForGourmets";
+import TimeForLovedOnes from "@/components/activities/TimeForLovedOnes";
+import ActiveHoliday from "@/components/activities/ActiveHoliday";
 
 const Activities = () => {
   return (
@@ -24,6 +27,10 @@ const Activities = () => {
         className="w-full h-full object-cover transition-transform duration-300 my-10"
         priority={true}
       />
+      <NotJustAnyLake />
+      <ForGourmets />
+      <TimeForLovedOnes />
+      <ActiveHoliday />
     </div>
   );
 };
