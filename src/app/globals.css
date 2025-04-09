@@ -75,3 +75,37 @@ body,
   border-radius: 8px;
   background: linear-gradient(to right, #7ee3f9, #a3e0ee);
 }
+
+.custom-calendar {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.custom-calendar .ant-picker-calendar-date-content {
+  height: auto !important;
+}
+
+.custom-calendar .ant-picker-calendar-date {
+  margin: 0 !important;
+  padding: 4px !important;
+}
+
+.custom-calendar .ant-picker-cell {
+  padding: 0 !important;
+}
+
+.custom-calendar .ant-picker-calendar-header {
+  display: none !important;
+}
+
+.custom-calendar thead th {
+  text-align: center !important;
+  padding: 8px !important;
+  font-weight: normal !important;
+  color: #666 !important;
+}
+
+.custom-calendar .ant-picker-cell-disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

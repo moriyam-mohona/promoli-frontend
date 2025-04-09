@@ -41,19 +41,26 @@ const HolidayCard: React.FC<HolidayCardProps> = ({
           transition={{ duration: 0.6 }}
           whileHover={{ scale: 1.05 }}
         >
-          <Image
-            src={imageSrc}
-            alt={title}
-            className="w-full h-72 object-cover"
-            width={1000}
-            height={1000}
-          />
+          <Link href={`/holidays-apartment/${id}`} className="block">
+            <Image
+              src={imageSrc}
+              alt={title}
+              className="w-full h-72 object-cover"
+              width={1000}
+              height={1000}
+            />
+          </Link>
         </motion.div>
       </div>
 
       {/* Info Section */}
       <div className="p-4">
-        <h3 className="text-xl font-medium">{title}</h3>
+        <Link
+          href={`/holidays-apartment/${id}`}
+          className="text-xl font-medium  transition duration-300 mb-2 hover:underline"
+        >
+          {title}
+        </Link>
         <div className="flex items-center text-yellow-500 mb-2">
           {Array.from({ length: 5 }, (_, index) => (
             <span
