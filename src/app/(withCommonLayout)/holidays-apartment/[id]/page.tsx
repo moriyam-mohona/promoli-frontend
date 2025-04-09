@@ -11,7 +11,7 @@ const HolidaysApartmentDetails = () => {
   return (
     <div>
       <Navbar />
-      <div className="">
+      <div className="bg-[#FFF8F0]">
         <HolidaysApartmentDetailsBanner />
         <HolidaysApartmentFeatures />
         <PersonalContact />

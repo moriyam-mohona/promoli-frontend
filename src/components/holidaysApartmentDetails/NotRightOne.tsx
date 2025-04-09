@@ -1,11 +1,13 @@
 const NotRightOne = () => {
   return (
     <div className="container mx-auto px-4 py-8 space-y-4">
-      <h2 className="text-3xl font-semibold">Not the Right One?</h2>
-      <p className="font-semibold">More Holiday Apartments in Büsum</p>
+      <h2 className="text-3xl font-semibold">Nicht das richtige Apartment?</h2>
+      <p className="font-semibold">
+        Entdecke weitere Ferienwohnungen die deinen Bedürfnissen entsprech.
+      </p>
       <p>
-        If this apartment isn’t quite what you&apos;re looking for, explore a
-        wide range of other accommodations here.
+        Wenn diese Wohnung nicht genau das ist, was Sie suchen, stöbern Sie
+        gerne in unserer großen Auswahl an weiteren Unterkünften.
       </p>
     </div>
   );

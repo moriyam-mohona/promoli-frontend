@@ -29,7 +29,7 @@ const PersonalContact = () => {
             variants={fadeIn}
             className="w-full text-2xl font-semibold text-gray-900 "
           >
-            Personal Contact
+            Persönlicher Kontakt
           </motion.h2>
 
           <motion.a
@@ -37,7 +37,7 @@ const PersonalContact = () => {
             href="#contact"
             className="text-gray-600 hover:text-gray-900 transition-colors duration-200 flex items-center gap-2 mt-2 md:mt-0"
           >
-            Contact
+            Kontakt
             <span className="text-xl">→</span>
           </motion.a>
         </div>
@@ -71,7 +71,7 @@ const PersonalContact = () => {
 
               <div className="flex items-center gap-4">
                 <BsTelephoneFill className="w-5 h-5 text-[#1FB3D3]" />
-                <p className="font-medium">Booking Request</p>
+                <p className="font-medium">Buchungsanfrage</p>
               </div>
 
               <div className="flex items-center gap-4">

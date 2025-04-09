@@ -96,16 +96,16 @@ const HolidaysApartmentFeatures = () => {
           <div className="bg-[#0A2342] max-w-96 sm:w-96 text-white p-8 shadow-xl">
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <h3 className="text-xl font-semibold">Your Travel Dates</h3>
+                <h3 className="text-xl font-semibold">Deine Reisedaten</h3>
               </div>
               <p className="text-gray-300">
-                Please First Select Your Travel Period.
+                Bitte wähle erst deine Reisedaten aus
               </p>
               <Link
                 href={`/booking/1`}
                 className="w-full bg-primary hover:bg-primary/80 text-white font-semibold py-3 px-3 transition-colors duration-200 flex items-center justify-center gap-2"
               >
-                Book Now
+                Jetzt Buchen
                 <span className="text-xl">→</span>
               </Link>
             </div>

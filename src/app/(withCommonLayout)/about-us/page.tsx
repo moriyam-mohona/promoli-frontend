@@ -1,14 +1,19 @@
+import AboutBanner from "@/components/aboutUS/AboutBanner";
 import Navbar from "@/components/shared/Navbar";
-import React from "react";
+import Filtering from "@/components/shared/Filtering";
+import AboutSection from "@/components/aboutUS/AboutSection";
+import TheRightAccommodation from "@/components/aboutUS/TheRightAccommodation";
+import ContactPerson from "@/components/aboutUS/ContactPerson";
 
 const AboutUs = () => {
   return (
-    <div className="h-screen flex items-center justify-center  text-gray-800 container mx-auto px-4">
-      {" "}
-      <Navbar />
-      <h2 className="text-2xl font-bold">
-        About us page is under construction
-      </h2>
+    <div className="bg-[#FFF8F0]">
+      <Navbar className="bg-transparent shadow-none" />
+      <AboutBanner />
+      <Filtering />
+      <AboutSection />
+      <TheRightAccommodation />
+      <ContactPerson />
     </div>
   );
 };

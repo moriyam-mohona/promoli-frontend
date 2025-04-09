@@ -85,7 +85,7 @@ const ReviewsAndExperiences = () => {
       <div className="max-w-5xl">
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-[40px] font-semibold text-gray-900">
-            Reviews & Experiences
+            Bewertungen unserer Gäste
           </h2>
           <div className="flex gap-2">
             <button

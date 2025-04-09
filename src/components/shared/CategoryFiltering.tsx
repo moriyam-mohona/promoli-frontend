@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import neu from "@/assets/categoryicons/new.png";
 import beliebtesten from "@/assets/categoryicons/beliebtesten.png";
