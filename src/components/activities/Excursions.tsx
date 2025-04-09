@@ -1,14 +1,14 @@
 import ActivitiesSection from "../shared/ActivitiesSection";
-import img1 from "@/assets/activities/gourmets-one.png";
-import img2 from "@/assets/activities/gourmets-two.png";
-import img3 from "@/assets/activities/gourmets-three.png";
-import img4 from "@/assets/activities/gourmets-four.png";
+import img1 from "@/assets/activities/excursions-one.png";
+import img2 from "@/assets/activities/excursions-two.png";
+import img3 from "@/assets/activities/excursions-three.png";
+import img4 from "@/assets/activities/excursions-four.png";
 
-const ForGourmets = () => {
+const Excursions = () => {
   const locations = [
     {
       image: img1,
-      title: "Allgäuer Käseroute",
+      title: "Strandbad Langenargen",
       description:
         "Enjoy the crystal clear water of Lake Constance. The perfect spot to relax and unwind.",
       details: [
@@ -19,7 +19,7 @@ const ForGourmets = () => {
     },
     {
       image: img2,
-      title: "Wein mit Seeblick",
+      title: "Blütenpracht auf Mainau",
       description:
         "Explore charming towns and villages surrounding Lake Constance, full of culture and history.",
       details: [
@@ -30,7 +30,7 @@ const ForGourmets = () => {
     },
     {
       image: img3,
-      title: "Open-Air-Kunst erleben",
+      title: "Skifahren mit Aussicht",
       description:
         "Experience the magnificent views from the water, ideal for boat tours and water activities.",
       details: [
@@ -41,7 +41,7 @@ const ForGourmets = () => {
     },
     {
       image: img4,
-      title: "Markttag in Lindau",
+      title: "Wellness in der Therme",
       description:
         "Enjoy a calm and peaceful evening by the lake, perfect for a sunset stroll or a relaxing moment.",
       details: [
@@ -54,13 +54,13 @@ const ForGourmets = () => {
   return (
     <div>
       <ActivitiesSection
-        topTitle="Für Feinschmecker & Kulturfans"
-        title="Schmecken. Staunen. Genießen."
-        subTitle="Echte Allgäuer Käsekultur, Bodenseewein mit Aussicht und kulturelle Highlights wie die Bregenzer Festspiele – diese Region schmeckt und inspiriert. Wir zeigen dir, wo dein Urlaub zum Erlebnis für alle Sinne wird."
+        topTitle="Excursions"
+        title="Sommerträume & Wintermärchen"
+        subTitle="Im Sommer lockt das kühle Nass, im Winter das weiße Abenteuer. Ganz gleich, wann du anreist – rund um Bodensee und Allgäu wartet die passende Aktivität auf dich."
         locations={locations}
       />
     </div>
   );
 };
 
-export default ForGourmets;
+export default Excursions;

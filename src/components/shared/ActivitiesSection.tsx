@@ -48,7 +48,7 @@ const ActivitiesCard = ({
 
       {/* Details Section - Hidden by default */}
       {isOpen && (
-        <div className="p-6 bg-blue-50 rounded-lg shadow-lg mt-4 transition-all ease-in-out">
+        <div className="p-6 bg-white shadow-lg mt-4 transition-all ease-in-out">
           <h4 className="text-xl font-bold mb-2">Details:</h4>
           <p className="text-base mb-4">{description}</p>
           <div className="text-sm text-gray-700">
@@ -133,7 +133,7 @@ const ActivitiesSection = ({
               animate={{ opacity: 1, y: 0 }}
               transition={{
                 duration: 0.6,
-                delay: 0.5 + index * 0.2, // Staggered delay for each card
+                delay: 0.5 + index * 0.2,
               }}
             >
               <ActivitiesCard

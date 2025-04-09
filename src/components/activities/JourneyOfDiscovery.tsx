@@ -1,14 +1,13 @@
 import ActivitiesSection from "../shared/ActivitiesSection";
-import img1 from "@/assets/activities/gourmets-one.png";
-import img2 from "@/assets/activities/gourmets-two.png";
-import img3 from "@/assets/activities/gourmets-three.png";
-import img4 from "@/assets/activities/gourmets-four.png";
-
-const ForGourmets = () => {
+import img1 from "@/assets/activities/journey-of-discovery-one.png";
+import img2 from "@/assets/activities/journey-of-discovery-two.png";
+import img3 from "@/assets/activities/journey-of-discovery-three.png";
+import img4 from "@/assets/activities/journey-of-discovery-four.png";
+const JourneyOfDiscovery = () => {
   const locations = [
     {
       image: img1,
-      title: "Allgäuer Käseroute",
+      title: "Schloss Neuschwanstein ",
       description:
         "Enjoy the crystal clear water of Lake Constance. The perfect spot to relax and unwind.",
       details: [
@@ -19,7 +18,7 @@ const ForGourmets = () => {
     },
     {
       image: img2,
-      title: "Wein mit Seeblick",
+      title: "Insel Reichenau",
       description:
         "Explore charming towns and villages surrounding Lake Constance, full of culture and history.",
       details: [
@@ -30,7 +29,7 @@ const ForGourmets = () => {
     },
     {
       image: img3,
-      title: "Open-Air-Kunst erleben",
+      title: "Pfänderbahn fahren",
       description:
         "Experience the magnificent views from the water, ideal for boat tours and water activities.",
       details: [
@@ -41,7 +40,7 @@ const ForGourmets = () => {
     },
     {
       image: img4,
-      title: "Markttag in Lindau",
+      title: "Altstadtflair in Meersburg",
       description:
         "Enjoy a calm and peaceful evening by the lake, perfect for a sunset stroll or a relaxing moment.",
       details: [
@@ -51,16 +50,17 @@ const ForGourmets = () => {
       ],
     },
   ];
+
   return (
     <div>
       <ActivitiesSection
-        topTitle="Für Feinschmecker & Kulturfans"
-        title="Schmecken. Staunen. Genießen."
-        subTitle="Echte Allgäuer Käsekultur, Bodenseewein mit Aussicht und kulturelle Highlights wie die Bregenzer Festspiele – diese Region schmeckt und inspiriert. Wir zeigen dir, wo dein Urlaub zum Erlebnis für alle Sinne wird."
+        topTitle="Auf Entdeckungsreise gehen"
+        title="Die Region steckt voller Highlights"
+        subTitle="Erlebe Burgen, Schlösser, Inseln und charmante Altstädte – viele Highlights erreichst du in nur wenigen Minuten. Mit unseren Tipps wird jeder Ausflug zum Erlebnis."
         locations={locations}
       />
     </div>
   );
 };
 
-export default ForGourmets;
+export default JourneyOfDiscovery;

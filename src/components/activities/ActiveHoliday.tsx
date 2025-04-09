@@ -1,13 +1,14 @@
 import ActivitiesSection from "../shared/ActivitiesSection";
-import img1 from "@/assets/activities/not-lake-one.png";
-import img2 from "@/assets/activities/not-lake-two.png";
-import img3 from "@/assets/activities/not-lake-three.png";
-import img4 from "@/assets/activities/not-lake-four.png";
+import img1 from "@/assets/activities/active-holiday-one.png";
+import img2 from "@/assets/activities/active-holiday-two.png";
+import img3 from "@/assets/activities/active-holiday-three.png";
+import img4 from "@/assets/activities/active-holiday-four.png";
+
 const ActiveHoliday = () => {
   const locations = [
     {
       image: img1,
-      title: "Glasklares Wasser Genießen",
+      title: "Panoramawanderung",
       description:
         "Enjoy the crystal clear water of Lake Constance. The perfect spot to relax and unwind.",
       details: [
@@ -18,7 +19,7 @@ const ActiveHoliday = () => {
     },
     {
       image: img2,
-      title: "Charmante Orte Entdecken",
+      title: "Radfahren mit Seeblick",
       description:
         "Explore charming towns and villages surrounding Lake Constance, full of culture and history.",
       details: [
@@ -29,7 +30,7 @@ const ActiveHoliday = () => {
     },
     {
       image: img3,
-      title: "Seegang Mit Aussicht",
+      title: "SUP auf Entdeckungstour",
       description:
         "Experience the magnificent views from the water, ideal for boat tours and water activities.",
       details: [
@@ -40,7 +41,7 @@ const ActiveHoliday = () => {
     },
     {
       image: img4,
-      title: "Abende Am See",
+      title: "Klettergarten Immenstaad",
       description:
         "Enjoy a calm and peaceful evening by the lake, perfect for a sunset stroll or a relaxing moment.",
       details: [
@@ -54,9 +55,9 @@ const ActiveHoliday = () => {
   return (
     <div>
       <ActivitiesSection
-        topTitle="Für Feinschmecker & Kulturfans"
-        title="Schmecken. Staunen. Genießen."
-        subTitle="Echte Allgäuer Käsekultur, Bodenseewein mit Aussicht und kulturelle Highlights wie die Bregenzer Festspiele – diese Region schmeckt und inspiriert. Wir zeigen dir, wo dein Urlaub zum Erlebnis für alle Sinne wird."
+        topTitle="Aktivurlaub in Bestform"
+        title="Bewegung trifft Naturerlebnis"
+        subTitle="Der Bodensee und das Allgäu sind ein wahres Paradies für sportlich Aktive – egal ob auf dem Wasser, dem Rad oder in den Bergen. Unsere Empfehlungen bringen dich garantiert ins Schwitzen – und zum Staunen."
         locations={locations}
       />
     </div>

@@ -25,11 +25,11 @@ const CallToAction = () => {
       ></div>
 
       {/* Content Container */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-12">
           {/* Text Section */}
           <div className="lg:col-span-6">
-            <div className="flex flex-col justify-center items-start">
+            <div className="flex flex-col justify-center items-start gap-3">
               <motion.h2
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -63,25 +63,25 @@ const CallToAction = () => {
                   href="#"
                   className="text-white bg-white/20 hover:bg-white/30 p-2 rounded-full"
                 >
-                  <FaTwitter className="text-sky-300 text-lg" />
+                  <FaTwitter className="text-lg w-6 h-6" />
                 </a>
                 <a
                   href="#"
                   className="text-white bg-white/20 hover:bg-white/30 p-2 rounded-full"
                 >
-                  <FaInstagram className="text-pink-500 text-lg" />
+                  <FaInstagram className="text-lg w-6 h-6" />
                 </a>
                 <a
                   href="#"
                   className="text-white bg-white/20 hover:bg-white/30 p-2 rounded-full"
                 >
-                  <FaLinkedinIn className="text-blue-300 text-lg" />
+                  <FaLinkedinIn className="text-lg w-6 h-6" />
                 </a>
                 <a
                   href="#"
                   className="text-white bg-white/20 hover:bg-white/30 p-2 rounded-full"
                 >
-                  <FaFacebookF className="text-blue-500 text-lg" />
+                  <FaFacebookF className="text-lg w-6 h-6" />
                 </a>
               </motion.div>
 
@@ -119,7 +119,7 @@ const CallToAction = () => {
               <Image
                 src={banner}
                 alt="Luxury Pool Area"
-                className="w-full max-w-[500px] h-auto mx-auto object-contain"
+                className="w-full max-w-[700px] h-auto mx-auto object-contain"
               />
             </motion.div>
           </div>

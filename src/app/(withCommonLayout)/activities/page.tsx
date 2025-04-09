@@ -9,6 +9,9 @@ import NotJustAnyLake from "@/components/activities/NotJustAnyLake";
 import ForGourmets from "@/components/activities/ForGourmets";
 import TimeForLovedOnes from "@/components/activities/TimeForLovedOnes";
 import ActiveHoliday from "@/components/activities/ActiveHoliday";
+import JourneyOfDiscovery from "@/components/activities/JourneyOfDiscovery";
+import Excursions from "@/components/activities/Excursions";
+import CallToAction from "@/components/shared/CallToAction";
 
 const Activities = () => {
   return (
@@ -31,6 +34,9 @@ const Activities = () => {
       <ForGourmets />
       <TimeForLovedOnes />
       <ActiveHoliday />
+      <Excursions />
+      <JourneyOfDiscovery />
+      <CallToAction />
     </div>
   );
 };
