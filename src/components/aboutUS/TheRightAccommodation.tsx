@@ -45,71 +45,47 @@ const TheRightAccommodation = () => {
               >
                 Was uns wichtig ist
               </motion.h1>
+
               <div className="space-y-6">
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.5 }}
-                  className="flex items-start gap-3"
-                >
-                  <p>
-                    ✅ Professionalität: Vom Check-in bis zum Check-out – alles
-                    läuft rund.
-                  </p>
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.7 }}
-                  className="flex items-start gap-3"
-                >
-                  <p>
-                    🧼 Qualität: Gepflegt, stilvoll, durchdacht. Jede Unterkunft
-                    erfüllt höchste Standards.
-                  </p>
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 0.9 }}
-                  className="flex items-start gap-3"
-                >
-                  <p>
-                    🌱 Nachhaltigkeit: Umweltfreundliche Reinigungsmittel, faire
-                    Prozesse, regionale Partner.
-                  </p>
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 1.1 }}
-                  className="flex items-start gap-3"
-                >
-                  <p>
-                    🫶 Gastfreundschaft: Unser Team ist für Sie da – rund um die
-                    Uhr, persönlich & hilfsbereit.
-                  </p>
-                </motion.div>
-
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: 1.3 }}
-                  className="flex items-start gap-3"
-                >
-                  <p>
-                    ❤️ Leidenschaft: Stays ist kein Job – es ist unsere
-                    Berufung.
-                  </p>
-                </motion.div>
+                {[
+                  {
+                    icon: "✅",
+                    text: "Professionalität: Vom Check-in bis zum Check-out – alles läuft rund.",
+                  },
+                  {
+                    icon: "🧼",
+                    text: "Qualität: Gepflegt, stilvoll, durchdacht. Jede Unterkunft erfüllt höchste Standards.",
+                  },
+                  {
+                    icon: "🌱",
+                    text: "Nachhaltigkeit: Umweltfreundliche Reinigungsmittel, faire Prozesse, regionale Partner.",
+                  },
+                  {
+                    icon: "🫶",
+                    text: "Gastfreundschaft: Unser Team ist für Sie da – rund um die Uhr, persönlich & hilfsbereit.",
+                  },
+                  {
+                    icon: "❤️",
+                    text: "Leidenschaft: Stays ist kein Job – es ist unsere Berufung.",
+                  },
+                ].map((item, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{
+                      delay: 0.5 + index * 0.2,
+                      duration: 0.6,
+                      ease: "easeOut",
+                    }}
+                    className="flex items-start gap-3"
+                  >
+                    <p>
+                      {item.icon} {item.text}
+                    </p>
+                  </motion.div>
+                ))}
               </div>
             </div>
           </div>
