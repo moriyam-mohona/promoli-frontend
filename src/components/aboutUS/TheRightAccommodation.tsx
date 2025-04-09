@@ -47,6 +47,14 @@ const TheRightAccommodation = () => {
               </motion.h1>
 
               <div className="space-y-6">
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                >
+                  Bei uns buchen Sie nicht nur eine Unterkunft – sondern ein
+                  gutes Gefühl:
+                </motion.p>
                 {[
                   {
                     icon: "✅",
