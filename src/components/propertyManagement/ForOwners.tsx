@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import check from "@/assets/about/checkmark.png";
+import Image from "next/image";
 
 const ForOwners = () => {
   return (
@@ -50,7 +52,7 @@ const ForOwners = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="font-medium text-xl mb-4 "
+              className="font-semibold text-xl mb-4 "
             >
               Warum bei uns?
             </motion.p>
@@ -64,6 +66,42 @@ const ForOwners = () => {
               betreuen wir auch Ihr Ferienobjekt. Wir übernehmen ganz
               unkompliziert folgende Leistungen:
             </motion.p>
+            <div className="space-y-6">
+              {[
+                "Vertragsabschluss Mit Den Gästen",
+                "Abrechnung Und Komplette Abwicklung Der Aufenthalte",
+                "Zwischen- Und Endreinigung Der Wohnungen Und Häuser",
+                "Schlüsselübergabe",
+                "Beratung Rund Um Preisgestaltung & Ausstattung",
+                "Qualitätsmanagement",
+                "Abwicklung Von Reklamationen",
+                "Professionelle Vermarktung Ihres Objekts Über Unterschiedliche Onlineportale",
+                "Wohnungsfotos",
+                "Kostenminimierung Dank Gemeinschaftlichem Marketing",
+              ].map((item, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  viewport={{ once: true }}
+                  transition={{
+                    delay: 0.5 + index * 0.2,
+                    duration: 0.6,
+                    ease: "easeOut",
+                  }}
+                  className="flex items-start gap-3"
+                >
+                  <Image
+                    src={check}
+                    alt="checkmark"
+                    width={24}
+                    height={24}
+                    className="w-6 h-5 object-contain"
+                  />
+                  <p>{item}</p>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
