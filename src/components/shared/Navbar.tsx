@@ -6,6 +6,7 @@ import { FaHome, FaBars } from "react-icons/fa";
 import { GrFavorite } from "react-icons/gr";
 import Image from "next/image";
 import logo from "@/assets/logo.png";
+import Link from "next/link";
 
 const navigationLinks = [
   { href: "/", label: "Home", icon: <FaHome /> },
@@ -34,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({
         <div className="flex items-center justify-between h-24">
           <div className="flex items-center gap-10">
             {/* Logo */}
-            <div className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Image
                 src={logo}
                 alt="Logo"
@@ -42,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({
                 height={1000}
                 className="w-16 h-12 md:w-24 md:h-20 object-contain"
               />
-            </div>
+            </Link>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">

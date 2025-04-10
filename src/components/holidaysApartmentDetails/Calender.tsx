@@ -55,12 +55,10 @@ const Calendar = () => {
 
     return (
       <div
-        className={`
-          h-10 w-10 flex items-center justify-center rounded-full transition-all
+        className={`h-10 w-10 flex items-center justify-center rounded-full transition-all
           ${isSelected ? "bg-[#17A5E6] text-white" : ""}
           ${isRange ? "bg-[#E6F7FF]" : ""}
-          hover:bg-[#17A5E6] hover:text-white
-        `}
+          hover:bg-[#17A5E6] hover:text-white`}
       >
         {date.date()}
       </div>

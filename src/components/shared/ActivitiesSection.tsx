@@ -6,10 +6,11 @@ import { motion } from "framer-motion";
 
 // Define type for the props of ActivitiesCard
 interface ActivitiesCardProps {
-  image: string | StaticImageData; // Accept both string (URL) and StaticImageData
+  image: string | StaticImageData;
   title: string;
   description: string;
   details: string[];
+  index: number;
 }
 
 const ActivitiesCard = ({
@@ -25,7 +26,7 @@ const ActivitiesCard = ({
   };
 
   return (
-    <div className="space-y-4">
+    <>
       {/* Card Section */}
       <div
         className="cursor-pointer bg-white"
@@ -48,19 +49,32 @@ const ActivitiesCard = ({
 
       {/* Details Section - Hidden by default */}
       {isOpen && (
-        <div className="p-6 bg-white shadow-lg mt-4 transition-all ease-in-out">
-          <h4 className="text-xl font-bold mb-2">Details:</h4>
-          <p className="text-base mb-4">{description}</p>
-          <div className="text-sm text-gray-700">
-            <ul className="list-disc pl-6">
-              {details.map((item: string, index: number) => (
-                <li key={index}>{item}</li>
-              ))}
-            </ul>
+        <div className="col-span-full bg-white rounded-lg p-8 mt-8">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-outfit mb-6">{title}</h2>
+            <div className="space-y-6">
+              <p className="text-base text-gray-700 leading-relaxed">
+                {description}
+              </p>
+              <div>
+                <h4 className="text-lg font-semibold mb-4">Zahlen & Fakten:</h4>
+                <ul className="space-y-3">
+                  {details.map((item: string, index: number) => (
+                    <li
+                      key={index}
+                      className="flex items-start gap-2 text-gray-700"
+                    >
+                      <span className="text-primary text-lg">✓</span>
+                      <span className="leading-tight">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 };
 
@@ -141,6 +155,7 @@ const ActivitiesSection = ({
                 title={location.title}
                 description={location.description}
                 details={location.details}
+                index={index}
               />
             </motion.div>
           ))}

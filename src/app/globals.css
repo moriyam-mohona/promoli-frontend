@@ -76,36 +76,71 @@ body,
   background: linear-gradient(to right, #7ee3f9, #a3e0ee);
 }
 
-.custom-calendar {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.custom-calendar .ant-picker-calendar-date-content {
-  height: auto !important;
-}
-
-.custom-calendar .ant-picker-calendar-date {
-  margin: 0 !important;
-  padding: 4px !important;
-}
-
-.custom-calendar .ant-picker-cell {
-  padding: 0 !important;
+/* Customizing the Ant Design Calendar */
+.custom-calendar .ant-picker-calendar {
+  background-color: #f0f9ff !important; /* Light blue background */
+  border-radius: 12px !important; /* Rounded corners */
+  padding: 20px !important;
+  box-shadow: none !important; /* Remove shadow */
 }
 
 .custom-calendar .ant-picker-calendar-header {
-  display: none !important;
+  display: none !important; /* Hide default header */
 }
 
-.custom-calendar thead th {
-  text-align: center !important;
-  padding: 8px !important;
-  font-weight: normal !important;
-  color: #666 !important;
+.custom-calendar .ant-picker-cell {
+  padding: 0 !important; /* Remove padding from each cell */
 }
 
-.custom-calendar .ant-picker-cell-disabled {
-  opacity: 0.5;
-  pointer-events: none;
+.custom-calendar .ant-picker-cell-in-view {
+  border-radius: 8px !important; /* Rounded borders for active cells */
+}
+
+.custom-calendar .ant-picker-cell-selected {
+  background-color: #17a5e6 !important; /* Selected date background color */
+  color: white !important; /* White text on selected date */
+}
+
+.custom-calendar .ant-picker-cell-range-start,
+.custom-calendar .ant-picker-cell-range-end {
+  background-color: #e6f7ff !important; /* Range start and end background color */
+  color: #17a5e6 !important; /* Text color for range dates */
+}
+
+.custom-calendar .ant-picker-cell:hover {
+  background-color: #17a5e6 !important; /* Hover effect on dates */
+  color: white !important; /* White text on hover */
+}
+
+.custom-calendar .ant-picker-calendar-date-content {
+  height: 40px !important; /* Adjust height of the dates */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-calendar .ant-picker-calendar-date {
+  padding: 0px !important; /* Remove padding */
+}
+
+.custom-calendar .ant-picker-header-view > .ant-picker-prev-icon,
+.custom-calendar .ant-picker-header-view > .ant-picker-next-icon {
+  background-color: #17a5e6 !important; /* Customize the arrow buttons */
+  color: white !important;
+}
+
+.custom-calendar .ant-picker-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-calendar .ant-picker-calendar-footer .ant-btn {
+  background-color: #17a5e6 !important; /* Book Now button */
+  color: white !important;
+  border-radius: 8px !important;
+  font-size: 16px;
+}
+
+.custom-calendar .ant-picker-footer .ant-btn:hover {
+  background-color: #1590c8 !important; /* Hover effect on button */
 }
