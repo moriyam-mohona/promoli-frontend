@@ -66,15 +66,10 @@ const Calendar = () => {
   };
 
   return (
-    <motion.div
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      className="container mx-auto px-4 py-8"
-    >
+    <div className="container px-4 py-8 mx-auto">
       <motion.div
         variants={fadeIn}
-        className="bg-[#F0F9FF] rounded-xl p-6 max-w-md mx-auto"
+        className="bg-[#C9EAF6] rounded-xl px-20 py-10 max-w-xl"
       >
         <div className="flex items-center justify-between mb-6">
           <button
@@ -131,7 +126,7 @@ const Calendar = () => {
           )}
         </div>
       </motion.div>
-    </motion.div>
+    </div>
   );
 };
 
